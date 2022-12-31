@@ -9,9 +9,6 @@
     "TRANSFORMATION": null
   },
   "REMEMBER": {
-    "0": [
-      "NEWKEY"
-    ],
     "RANK": "5",
     "0 YOU REMEMBER 0": [
       "DO YOU OFTEN THINK OF 4",
@@ -27,6 +24,9 @@
       "WHAT ABOUT 5",
       "=WHAT",
       "YOU MENTIONED 5"
+    ],
+    "0": [
+      "NEWKEY"
     ]
   },
   "IF": {
@@ -111,10 +111,6 @@
     "RANK": "50"
   },
   "AM": {
-    "0": [
-      "WHY DO YOU SAY 'AM'",
-      "I DON'T UNDERSTAND THAT"
-    ],
     "TRANSFORMATION": "ARE",
     "0 ARE YOU 0": [
       "DO YOU BELIEVE YOU ARE 4",
@@ -122,6 +118,10 @@
       "YOU WISH I WOULD TELL YOU YOU ARE 4",
       "WHAT WOULD IT MEAN IF YOU WERE 4",
       "=WHAT"
+    ],
+    "0": [
+      "WHY DO YOU SAY 'AM'",
+      "I DON'T UNDERSTAND THAT"
     ]
   },
   "ARE": {
@@ -150,9 +150,6 @@
     ]
   },
   "WAS": {
-    "0": [
-      "NEWKEY"
-    ],
     "RANK": "2",
     "0 WAS YOU 0 ": [
       "WHAT IF YOU WERE 4",
@@ -173,9 +170,12 @@
       "WHAT DO YOU THINK",
       "PERHAPS I WAS 4",
       "WHAT IF I HAD BEEN 4"
+    ],
+    "0": [
+      "NEWKEY"
     ]
   },
-  "YOU'RE": {
+  "YOURE": {
     "TRANSFORMATION": "I'M",
     "0 I'M 0": [
       "PRE",
@@ -183,7 +183,7 @@
       "=YOU"
     ]
   },
-  "I'M": {
+  "IM": {
     "TRANSFORMATION": "YOU'RE",
     "0 YOU'RE 0": [
       "PRE",
@@ -192,12 +192,6 @@
     ]
   },
   "I": {
-    "0": [
-      "YOU SAY 1",
-      "CAN YOU ELABORATE ON THAT",
-      "DO YOU SAY 1 FOR SOME SPECIAL REASON",
-      "THATS QUITE INTERESTING"
-    ],
     "RANK": "7",
     "TRANSFORMATION": "YOU",
     "0 YOU WANT|NEED 0": [
@@ -225,7 +219,7 @@
     ],
     "0 YOU BELIEF YOU 0": [
       "DO YOU REALLY THINK SO",
-      "BUT YOU ARENOT SURE YOU 5",
+      "BUT YOU ARE NOT SURE YOU 5",
       "DO YOU REALLY DOUBT YOU 5"
     ],
     "0 YOU 0 BELIEF 0 I 0": [
@@ -237,13 +231,13 @@
       "DO YOU BELIEVE IT NORMAL TO BE 4",
       "DO YOU ENJOY BEING 4"
     ],
-    "0 YOU CAN'T|CANNOT 0": [
+    "0 YOU CANT|CANNOT 0": [
       "HOW DO YOU KNOW YOU CAN'T 4",
       "HAVE YOU TRIED",
       "PERHAPS YOU COULD 4 NOW",
       "DO YOU REALLY WANT TO BE ABLE TO 4"
     ],
-    "0 YOU DON'T 0": [
+    "0 YOU DONT 0": [
       "DON'T YOU REALLY 4",
       "WHY DON'T YOU 4",
       "DO YOU WISH TO BE ABLE TO 4",
@@ -260,6 +254,12 @@
       "DO YOU WISH TO 3 ME",
       "YOU SEEN TO NEED TO 3 ME",
       "DO YOU 3 ANYONE ELSE"
+    ],
+    "0": [
+      "YOU SAY 1",
+      "CAN YOU ELABORATE ON THAT",
+      "DO YOU SAY 1 FOR SOME SPECIAL REASON",
+      "THATS QUITE INTERESTING"
     ]
   },
   "YOU": {
@@ -365,24 +365,24 @@
   },
   "WHY": {
     "TRANSFORMATION": null,
-    "0 WHY DON'T I 0": [
+    "0 WHY DONT I 0": [
       "DO YOU BELIEVE I DON'T 5",
       "PERHAPS I WILL 5 IN GOOD TIME",
       "SHOULD YOU 5 YOURSELF",
       "YOU WANT ME TO 5",
       "=WHAT"
     ],
-    "0 WHY CAN'T YOU 0": [
+    "0 WHY CANT YOU 0": [
       "DO YOU THINK YOU SHOULD BE ABLE TO 5",
       "DO YOU WANT TO BE ABLE TO 5",
-      "DO YOU BFLIFVE THIS WILL HELP YOU TO 5",
+      "DO YOU BELIEVE THIS WILL HELP YOU TO 5",
       "HAVE YOU ANY IDEA WHY YOU CANT 5",
       "=WHAT"
     ]
   },
   "EVERYONE": {
     "RANK": "2",
-    "0 EVERYONE|EVERYBODY|NOBODY|NOONE 0 ": [
+    "0 EVERYONE 0 ": [
       "REALLY, 2",
       "SURELY NOT 2",
       "CAN YOU THINK OF ANYONE IN PARTICULAR",
@@ -404,12 +404,12 @@
     "RANK": "1"
   },
   "LIKE": {
-    "0": [
-      "NEWKEY"
-    ],
     "RANK": "10",
     "0 AM|IS|ARE|WAS 0 LIKE 0": [
       "=DIT"
+    ],
+    "0": [
+      "NEWKEY"
     ]
   },
   "DIT": {
